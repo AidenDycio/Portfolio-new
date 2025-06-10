@@ -1,0 +1,236 @@
+body {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    background-color: lightcyan;
+}
+
+
+#main-container {
+    width: 1024px;
+    height: 190px;
+    margin: 0px;
+    border: 0px solid black;;
+}
+
+#header {
+    width: 100%;
+    margin-top: 30px;
+    height: 155px;
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+}
+#Title-Name {
+    width: 100%;
+    height: 150px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-size: 150px;
+    font-style: italic;
+}
+
+#logo-box {
+    width: 160px;
+    height: 155px;
+    border: 0px solid black;
+    background-color: deepskyblue;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+}
+
+
+#Nav {
+    margin: 0px;
+    width: 1024px;
+    height: 45px;
+    border: 0px solid black;
+    /* display: flex; */
+    position: fixed;
+    z-index: 10;
+    justify-content: center;
+}
+
+#Nav a:hover {
+    color: black;
+    transition-duration: 1s;
+}
+
+#links {
+    width: 1024px;
+    height: 45px;
+    background-color: deepskyblue;
+    border: 1px solid black;
+    font-size: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+a {
+    border: 3px outset black;
+    color: whitesmoke;
+}
+
+#AboutMe {
+    width: 1024px;
+    height: 500px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+
+#title-for-about-me {
+    font-size: 65px;
+    position: relative;
+    left: 350px;
+    text-decoration: underline; 
+}
+
+#Academics {
+    width: 435px;
+    height: 295px;
+    border: 5px outset skyblue;
+    position: relative;
+    top: 160px;
+}
+
+#title-for-academics {
+    font-size: 40px;
+    display: flex;
+    justify-content: left;
+}
+
+#acad-ramble {
+    font-size: 20px;
+    margin: 10px;
+}
+
+#Skills {
+width: 320px;
+height: 290px;
+border: 5px outset skyblue;
+padding: -5px;
+position: relative;
+top: -160px;
+left: 50px;
+}
+
+#title-for-skills {
+font-size: 40px;
+display: flex;
+justify-content: center;
+}
+
+ul {
+    font-size: 17px;
+}
+
+#Portfolio {
+    width: 915px;
+    height: 1300px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    background-color: deepskyblue;
+    padding-top: 110px;
+    padding-bottom: 20px;
+    padding-left: 110px;
+    padding-right: 0px;
+}
+
+#Portfolio .Portfolio-P {
+    height: 100px;
+    width: 200px;
+    font-size: 20px;
+    position: relative;
+    left: 25px;
+    text-align: center;
+    white-space: wrap;
+    justify-self: left;
+    align-self: center;
+}
+
+#title-for-portfolio {
+    font-size: 65px;
+    position: absolute;
+    top: 650px;
+    left: 800px;
+    text-decoration: underline;
+    justify-self: center;
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-self: center;
+}
+
+#grass {
+    width: 460px;
+    height: 316.666666667px;
+    justify-self: center;
+}
+
+#showstopper {
+    width: 293.333333333px;
+    height: 300px;
+    justify-self: center;
+}
+
+#Magazine {
+    width: 300px;
+    height: 300px;
+    justify-self: center;
+}
+
+#flowers {
+    width: 390px;
+    height: 296.666666667px;
+    justify-self: center;
+}
+
+#Contact-Me {
+    width: 1024px;
+    height: 370px;
+    border: 1px solid black;
+}
+
+#title-for-contactme {
+    font-size: 65px;
+    display: flex;
+    position: relative;
+    left: 350px;
+    text-decoration: underline;
+}
+
+#Contact-Me p {
+    font-size: 37px;
+    border: 5px dotted skyblue;
+}
+
+/* this is how u do a cool button (pt.2) */
+    /* #button-example {
+    width: 200px;
+    height: 50px;
+    background-color: deeppink;
+    font-size: 30px;
+    color: black;
+    transition-property: background-color, color;
+    transition-duration: .5s;
+}
+
+    #button-example:hover {
+    transition-property: background-color, color;
+    transition-duration: .5s;
+    background-color: black;
+    color: deeppink;
+} */
